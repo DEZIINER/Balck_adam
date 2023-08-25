@@ -42,20 +42,20 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cynitev5Bot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Channel Button Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/movie_on1')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/movie_a1')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/movie_on1')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/AlAS_NOW')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/AlasUpdate')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/ALAS_NOWM')
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', -1001859772386))
-FILE_CHANNEL = int(environ.get('FILE_CHANNEL', -1001672254843))
-FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 'https://t.me/movie_a1')
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', -1001856203003))
+FILE_CHANNEL = int(environ.get('FILE_CHANNEL', -1001665862670))
+FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 'https://t.me/+oMtVUAX4PDxlYmNl')
 HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://mdisk.me/convertor/9x16/iikzIM')
 
 # Log Channels
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001758776529))
-RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', -1001758776529))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001850627959))
+RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', -1001850627959))
 
 # Bot Options
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
