@@ -24,8 +24,8 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                   ],[
-                    InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='https://t.me/movie_a1'),
-                    InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/movie_on1')
+                    InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='https://t.me/AlAS_NOW'),
+                    InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/AlAS_NOW')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action(enums.ChatAction.TYPING)
@@ -54,7 +54,7 @@ async def start(client, message):
                     InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about'),
                   ],[
-                    InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ ᴏᴜʀ  ᴄʜᴀɴɴᴇʟ', url="https://t.me/movie_a1")
+                    InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ ᴏᴜʀ  ᴄʜᴀɴɴᴇʟ', url="https://t.me/AlAS_NOW")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action(enums.ChatAction.TYPING)
@@ -105,7 +105,7 @@ async def start(client, message):
                     InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about'),
                   ],[
-                    InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ ᴏᴜʀ  ᴄʜᴀɴɴᴇʟ', url="https://t.me/movie_a1")
+                    InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ ᴏᴜʀ  ᴄʜᴀɴɴᴇʟ', url="https://t.me/AlAS_NOW")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action(enums.ChatAction.TYPING)
