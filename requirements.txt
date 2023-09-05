@@ -11,3 +11,4 @@ psutil
 aiohttp
 pytz
 dnspython==2.3.0
+aiofiles
