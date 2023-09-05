@@ -13,4 +13,4 @@ pytz
 dnspython==2.3.0
 aiofiles
 speedtest
-PIL
+pil
